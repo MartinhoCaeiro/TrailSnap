@@ -1,0 +1,187 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage[portuguese]{babel}
+\usepackage{siunitx} % Required for alignment
+\sisetup{
+  round-mode          = places, % Rounds numbers
+  round-precision     = 2, % to 2 places
+}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{karnaugh-map}
+\usepackage[section]{placeins}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{titling}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{array}
+\usepackage{soul}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{Recursos/referencias.bib}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+%\hypersetup{
+%    colorlinks,
+%    linkcolor={blue!80!black},
+ %   citecolor={blue!50!black},
+ %   urlcolor={}
+%}
+
+\usepackage{afterpage}
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+    }
+
+
+% First title page
+% Página de título principal
+\newcommand{\firsttitlepage}{
+    \begin{titlepage}
+        \centering
+        \vspace*{1cm}
+        
+        % Logos superior
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=6cm]{Recursos/Logos/LOGO_IPB} % Substitua pelo caminho da imagem
+            \vspace{0.5cm}
+        \end{figure}
+
+        % Informações da instituição
+        \large\textbf{INSTITUTO POLITÉCNICO DE BEJA} \\
+        \large\textbf{Escola Superior de Tecnologia e Gestão} \\
+        \large\textbf{Licenciatura em Engenharia Informática} \\
+        \large\textbf{Dinâmica de Grupos e Comunicação} \\
+        
+        \vspace{2cm}
+        
+        % Título do projeto
+        {\Huge \textbf{Criação de um Portfólio}} \\
+        
+        \vspace{1.5cm}
+        
+        % Autores
+        \large Martinho José Novo Caeiro - 23917 \\
+        
+        \vfill
+        
+        % Logo inferior
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=6cm]{Recursos/Logos/IPBejaESTIG.jpg} % Substitua pelo caminho da imagem
+        \end{figure}
+        
+        \vspace{1cm}
+        
+        % Local e data
+        {\large Beja, novembro de 2024}
+    \end{titlepage}
+}
+
+\newcommand{\secondtitlepage}{
+    \begin{titlepage}
+        \centering
+        \vspace*{1cm}
+        
+        % Informações da instituição
+        \large\textbf{INSTITUTO POLITÉCNICO DE BEJA} \\
+        \large\textbf{Escola Superior de Tecnologia e Gestão} \\
+        \large\textbf{Licenciatura em Engenharia Informática} \\
+        \large\textbf{Dinâmica de Grupos e Comunicação} \\
+        
+        \vspace{2cm}
+        
+        % Título do projeto
+        {\Huge \textbf{Criação de um Portfólio}} \\
+        
+        \vspace{1.5cm}
+        
+        % Autores
+        \large Martinho José Novo Caeiro - 23917 \\
+
+        \vspace{2cm}
+
+        % Orientador
+        \large Orientador:\\ Professora Marta Amaral
+        
+        \vfill
+        
+        % Local e data
+        {\large Beja, novembro de 2024}
+    \end{titlepage}
+}
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{document}
+\pagenumbering{gobble}
+
+
+% First title page
+\firsttitlepage
+
+
+% Second title page
+\secondtitlepage
+
+
+\newpage
+
+\renewcommand{\contentsname}{Indíce}
+\renewcommand{\refname}{Webgrafia}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+
+\newpage
+\pagenumbering{roman}
+\doublespacing
+\tableofcontents
+\doublespacing
+
+\newpage
+\pagenumbering{arabic}
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Introdução}\label{intro}
+Neste relatório será abordado o que é um portfólio, a sua importância, e a sua criação.
+
+O portfólio é um documento que reúne os trabalhos realizados por um indivíduo, com o objetivo de demonstrar as suas competências e habilidades. 
+Este documento é muito importante para o mercado de trabalho, pois permite que o empregador tenha uma ideia clara das capacidades do candidato. 
+A criação de um portfólio pode ser feita de várias formas, desde um documento em papel até a um site na internet. 
+Neste relatório será abordada a criação de um portfólio em formato digital, que inclui um currículo e um vídeo de apresentação.
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\newpage
+\section{Criação de um Portfólio}\label{criacao}
+Para a criação de um portfólio foi utilizado o site \textit{Wix} (\cite{wix}), que permite criar um site de forma simples e intuitiva.
+Para a criação do CV foi utilizado o site \textit{Europass} (\cite{europass}), que permite criar currículos de forma rápida e com um design apelativo.
+Para a criação do vídeo foi utilizada a aplicação \textit{Câmara} da \textit{Microsoft}, que permite criar videos através do computador.
+
+Este é o link para o portfólio criado: \url{https://2391760.wixsite.com/martinhocaeiro} (Na página “Currículo” é possível visualizar o CV e o Vídeo)
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\newpage
+\section{Conclusões e Perspetivas de Trabalho Futuro}\label{con}
+Após a conclusão do Portfólio + CV + Vídeo conclui que a criação de um documento com as nossas aptidões é extremamente importante 
+para o mercado de trabalho, pois permite de uma forma simples e eficaz criar uma boa “primeira impressão” e demonstra que existe 
+alguma dedicação face a criação dos mesmos, dai a existência de inúmeras ferramentas que facilitam a criação destes documentos sem 
+que seja necessário um nível elevado de experiência. Também sinto que, pelo contrário, o vídeo seja pouco necessário por tratar-se de 
+uma repetição, um pouco “forçada”, dos conteúdos presentes nos já referidos documentos, não só, o suporte em vídeo é facilmente 
+prejudicado pelo equipamento utilizado.
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------
+\newpage
+\addcontentsline{toc}{section}{Webgrafia}
+\printbibliography
+
+
+\end{document}

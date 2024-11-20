@@ -1,0 +1,167 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{europass}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=427960bda70af244255836c78922479c}{%
+           family={União\bibnamedelima Europeia},
+           familyi={U\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{427960bda70af244255836c78922479c}
+      \strng{fullhash}{427960bda70af244255836c78922479c}
+      \strng{fullhashraw}{427960bda70af244255836c78922479c}
+      \strng{bibnamehash}{427960bda70af244255836c78922479c}
+      \strng{authorbibnamehash}{427960bda70af244255836c78922479c}
+      \strng{authornamehash}{427960bda70af244255836c78922479c}
+      \strng{authorfullhash}{427960bda70af244255836c78922479c}
+      \strng{authorfullhashraw}{427960bda70af244255836c78922479c}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Criador de CV online}
+      \field{title}{EUROPASS}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://europa.eu/europass/eportfolio/screen/cv-editor?lang=pt
+      \endverb
+      \verb{url}
+      \verb https://europa.eu/europass/eportfolio/screen/cv-editor?lang=pt
+      \endverb
+    \endentry
+    \entry{wix}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4864f72bea486b18e3ffd467756e7a7}{%
+           family={WIX},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{fullhash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{fullhashraw}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{bibnamehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authorbibnamehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authornamehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authorfullhash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authorfullhashraw}{c4864f72bea486b18e3ffd467756e7a7}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Criador de Portfólio online}
+      \field{title}{WIX - Crie um website sem limites}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wix.com/
+      \endverb
+      \verb{url}
+      \verb https://www.wix.com/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{europass}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=427960bda70af244255836c78922479c}{%
+           family={União\bibnamedelima Europeia},
+           familyi={U\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{427960bda70af244255836c78922479c}
+      \strng{fullhash}{427960bda70af244255836c78922479c}
+      \strng{fullhashraw}{427960bda70af244255836c78922479c}
+      \strng{bibnamehash}{427960bda70af244255836c78922479c}
+      \strng{authorbibnamehash}{427960bda70af244255836c78922479c}
+      \strng{authornamehash}{427960bda70af244255836c78922479c}
+      \strng{authorfullhash}{427960bda70af244255836c78922479c}
+      \strng{authorfullhashraw}{427960bda70af244255836c78922479c}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Criador de CV online}
+      \field{title}{EUROPASS}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://europa.eu/europass/eportfolio/screen/cv-editor?lang=pt
+      \endverb
+      \verb{url}
+      \verb https://europa.eu/europass/eportfolio/screen/cv-editor?lang=pt
+      \endverb
+    \endentry
+    \entry{wix}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4864f72bea486b18e3ffd467756e7a7}{%
+           family={WIX},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{fullhash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{fullhashraw}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{bibnamehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authorbibnamehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authornamehash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authorfullhash}{c4864f72bea486b18e3ffd467756e7a7}
+      \strng{authorfullhashraw}{c4864f72bea486b18e3ffd467756e7a7}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Criador de Portfólio online}
+      \field{title}{WIX - Crie um website sem limites}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wix.com/
+      \endverb
+      \verb{url}
+      \verb https://www.wix.com/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
