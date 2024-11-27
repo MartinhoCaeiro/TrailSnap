@@ -1,0 +1,8 @@
+Users(user_id, username, user_description, birthday, total_distance, time_used, creation_date)
+Trails(trail_id, user_id, trail_name, distance, start_time, end_time)
+Members(user_id, party_id, join_date)
+Party(party_id, party_name, party_description, creation_date, creator_id, total_distance, time_used, creation_date)
+Achievements(id_achievement, achievement_type, receiver_id, name_achievement, description_achievement, unlocked, progress)
+
+
+
