@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="dashboardFragment">
+
+    <!-- Tela Inicial -->
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.trailsnap.ui.dashboard.DashboardFragment"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_addWalk"
+            app:destination="@id/addWalkFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_history"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_achievements"
+            app:destination="@id/achievementsFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_profile"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_groups"
+            app:destination="@id/groupsFragment" />
+    </fragment>
+
+    <!-- Registro de Nova Caminhada -->
+    <fragment
+        android:id="@+id/addWalkFragment"
+        android:name="com.example.trailsnap.ui.addwalk.AddWalkFragment"
+        android:label="Adicionar Caminhada" />
+
+    <!-- Histórico de Caminhadas -->
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.trailsnap.ui.history.HistoryFragment"
+        android:label="Histórico">
+        <action
+            android:id="@+id/action_history_to_walkDetails"
+            app:destination="@id/walkDetailsFragment" />
+    </fragment>
+
+    <!-- Detalhes de Caminhada -->
+    <fragment
+        android:id="@+id/walkDetailsFragment"
+        android:name="com.example.trailsnap.ui.details.WalkDetailsFragment"
+        android:label="Detalhes da Caminhada" />
+
+    <!-- Conquistas -->
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.example.trailsnap.ui.achievements.AchievementsFragment"
+        android:label="Conquistas" />
+
+    <!-- Perfil do Utilizador -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.trailsnap.ui.profile.ProfileFragment"
+        android:label="Perfil" />
+
+    <!-- Grupos -->
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.example.trailsnap.ui.groups.GroupsFragment"
+        android:label="Grupos">
+        <action
+            android:id="@+id/action_groups_to_groupDetails"
+            app:destination="@id/groupDetailsFragment" />
+    </fragment>
+
+    <!-- Detalhes do Grupo -->
+    <fragment
+        android:id="@+id/groupDetailsFragment"
+        android:name="com.example.trailsnap.ui.groups.GroupDetailsFragment"
+        android:label="Detalhes do Grupo" />
+
+</navigation>
